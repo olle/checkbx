@@ -1,0 +1,19 @@
+{
+  "name": "checkbx",
+  "version": "0.0.1",
+  "description": "Custom. Check. Box.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olle/checkbx.git"
+  },
+  "style": "checkbx.css",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0"
+  }
+}
