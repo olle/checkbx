@@ -3,12 +3,16 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Chaett - Just chat stuff, no fluff!</title>
+        <title>Check. Box.</title>
         <style>
-            /* Static demo-page style. */
             body {
                 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                padding: 3rem;
+                font-size: 300%;
+            }
+            main {
+              width: 20ch;
+              margin: auto;
+              text-align: center;
             }
             fieldset {
               border: none;
@@ -20,9 +24,14 @@
             <h1>Checkbx</h1><br />
             <form>
               <fieldset>
-                <label>
-                  <input type="checkbox" id="yesno" name="yesno" />
+                <label for="foo">
+                  <input type="checkbox" id="foo" />
                   Yes or no?
+                </label>
+                <hr />
+                <label for="bar">
+                  No or yes?
+                  <input type="checkbox" id="bar" />
                 </label>
               </fieldset>
             </form>
