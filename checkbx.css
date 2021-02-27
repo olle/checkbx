@@ -1,0 +1,35 @@
+label.checkbx {
+  cursor: pointer;
+}
+input.checkbx {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  border: 3px solid black;
+  width: 4rem;
+  height: 2rem;
+  vertical-align: middle;
+  border-radius: 9999px;
+}
+input.checkbx:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgb(33, 161, 230);
+}
+input.checkbx::after {
+  content: "";
+  display: inline-block;
+  background: black;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 9999px;
+  transform: translate(0.1rem, 0.1rem);
+}
+input.checkbx:checked {
+  background: black;
+  outline-offset: 3px;
+  border-radius: 9999px;
+}
+input.checkbx:checked::after {
+  background: white;
+  transform: translate(2.1rem, 0.1rem);
+}
